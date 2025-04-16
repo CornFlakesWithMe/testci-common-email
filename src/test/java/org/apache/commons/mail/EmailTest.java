@@ -61,7 +61,7 @@ public class EmailTest {
 	public void testAddHeader() throws Exception {
 		
         email.addHeader("Example", "9");
-        assertEquals("6", email.headers.get("Example"));
+        assertEquals("9", email.headers.get("Example"));
     }
 
 	@Test (expected = IllegalArgumentException.class)
