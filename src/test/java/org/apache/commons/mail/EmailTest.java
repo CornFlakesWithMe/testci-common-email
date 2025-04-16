@@ -60,7 +60,7 @@ public class EmailTest {
 	@Test
 	public void testAddHeader() throws Exception {
 		
-        email.addHeader("Example", "6");
+        email.addHeader("Example", "9");
         assertEquals("6", email.headers.get("Example"));
     }
 
